@@ -7,7 +7,7 @@ import Weather from './components/Weather'
 function App() {
 
 const [data, setData]= useState({})
-const [location, setLocation]= useState("Bangkok")
+const [location, setLocation]= useState("")
  
 const API_KEY ="f37043753e7a722d7a8d9743d8f296ff"
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
